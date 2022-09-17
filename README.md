@@ -80,5 +80,7 @@ test accuracy = 96.05734767025089 %
           49       1.00      0.90      0.95        10
 
     accuracy                           0.96       558
+    
    macro avg       0.96      0.96      0.96       558
+   
 weighted avg       0.96      0.96      0.96       558

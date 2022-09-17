@@ -11,26 +11,11 @@ Class Imbalance was prevalent in the dataset as some classes had around 60-80 im
 ### Model and Data split 
 The dataset is train,validation and test using pre-trained model which is MobileNetV3Small.The dataset is split into  90% for training and 10% for testing. In 90% of training  dataset  again split to  90% for training  and  10% for validation . 
 
-###Model summary
-Model: "model"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
-                                                                 
- MobilenetV3small (Functiona  (None, 7, 7, 576)        939120    
- l)                                                              
-                                                                 
- global_average_pooling2d (G  (None, 576)              0         
- lobalAveragePooling2D)                                          
-                                                                 
- dense (Dense)               (None, 50)                28850     
-                                                                 
-=================================================================
+###Model Parameters
+
 Total params: 967,970
 Trainable params: 28,850
 Non-trainable params: 939,120
-_________________________________________________________________
 
 
 ### Training Accuracy : 99.80%
